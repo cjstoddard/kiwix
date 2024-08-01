@@ -1,6 +1,6 @@
 #!/bin/sh
-mkdir Data
-cd Data
+mkdir data
+cd data
 wget https://download.kiwix.org/zim/zimit/based.cooking_en_all_2024-07.zim
 wget https://download.kiwix.org/zim/zimit/fas-military-medicine_en_2024-06.zim
 wget https://download.kiwix.org/zim/gutenberg/gutenberg_en_all_2023-08.zim
