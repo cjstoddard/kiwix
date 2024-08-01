@@ -1,0 +1,18 @@
+version: '3'
+services:
+  kiwix-server:
+  image: ghcr.io/kiwix/kiwix-serve:latest
+  volumes:
+    - ./data:/data
+  ports:
+    - '8080:8080'
+command:
+  based.cooking_en_all_2024-07.zim
+  fas-military-medicine_en_2024-06.zim
+  gutenberg_en_all_2023-08.zim
+  openstreetmap-wiki_en_all_maxi_2023-04.zim
+  wikibooks_en_all_maxi_2021-03.zim
+  wikipedia_en_simple_all_maxi_2024-06.zim
+  wikisource_en_all_maxi_2022-09.zim
+  wikivoyage_en_all_maxi_2024-06.zim
+  wiktionary_en_all_maxi_2024-05.zim
