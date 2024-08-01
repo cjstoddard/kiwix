@@ -1,7 +1,7 @@
 # kiwix
 Build a quick and dirty Kiwix Server with docker-compose. This shell script was tested on Ubuntu server and Debian, if you are using something else you will need to adjust the install instructions accordingly.
 
-This script downloads 9 zim files to populate your server. This will take hours, most likely all day. The Project Gutenberg zim is something like 70 GB, which is larger than all the others combined. If you want to speed up the download, edit install.sh and docker-compose.yaml files and remove the gutenberg_en_all_2023-08.zim reference from both.
+This script downloads 9 zim files to populate your server. This will take hours, most likely all day, I personally ran this overnight. The Project Gutenberg zim is something like 70 GB, which is larger than all the others combined. If you want to speed up the download, edit install.sh and docker-compose.yaml files and remove the gutenberg_en_all_2023-08.zim reference from both.
 
 
     sudo apt install git docker docker-compose
