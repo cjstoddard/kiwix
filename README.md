@@ -15,3 +15,4 @@ If you wish to add other zim files, you can get them from here; https://download
 
 You will need to place them in the Data folder and add an entry for it into the docker-compose file and rerun "docker-compose up -d".
 
+This is not a super well curated collection of zim files, there is no over arcing princple involved beyond useful reference material. If hard drive space is not a concern, the first change I would make is replace Simple English Wikipedia with the complete Wikipedia. Be warned though, the compllete Wikipedia is over 100 GB.
